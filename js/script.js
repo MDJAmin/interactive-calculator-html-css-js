@@ -18,13 +18,13 @@ function calculate() {
     case "/":
       result = num1 / num2;
       break;
-      case "**":
-        result = num1 ** num2;
-        break;
+    case "**":
+      result = num1 ** num2;
+      break;
     default:
       result = "Unauthorized operation!";
   }
 
   document.querySelector("#result").value = result;
-  document.querySelector("")
+  document.querySelector("");
 }

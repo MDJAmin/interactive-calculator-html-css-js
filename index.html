@@ -1,47 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://png.pngtree.com/png-vector/20230803/ourmid/pngtree-albert-einstein-vector-png-image_6871598.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+    />
+    <title>Albert Calculator</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Calculator</title>
-</head>
-
-<body>
+  <body>
     <div id="Calculator-box">
-        <h1>Calculator</h1>
-        <div id="albert-pic">
-            <img src="./assets/pngtree-albert-einstein-vector-png-image_6871598.png" alt="">
-        </div>
-        <div class="user-box">
-            <label class="label-1" for="num1"></label>
-            <input type="text" id="num1" placeholder="Number one" autocomplete="off">
+      <h1>Albert Calculator</h1>
+      <div id="albert-pic">
+        <img
+          src="./assets/pngtree-albert-einstein-vector-png-image_6871598.png"
+          alt=""
+        />
+        <!-- <img src="https://png.pngtree.com/png-vector/20230803/ourmid/pngtree-albert-einstein-vector-png-image_6871598.png" alt=""> -->
+      </div>
+      <div class="user-box">
+        <label
+          class="label-1"
+          for="num1"
+        ></label>
+        <input
+          type="text"
+          id="num1"
+          placeholder="Number one"
+          autocomplete="off"
+        />
 
-            <label class="label-2" for="num2"></label>
-            <input type="text" id="num2" placeholder="Number two" autocomplete="off">
-        </div>
-        <label id="Operator-title" for="operator">Operator :</label>
-        <select id="operator"> 
-            <option value="+">Plus(+)</option>
-            <option value="-">Subtraction(-)</option>
-            <option value="*">Multiplication(*)</option>
-            <option value="/">Divisio(/)</option>
-            <option value="**">Exponent(**)</option>
-        </select>
-        <div>
-            <label class="Result" for="result"></label>
-            <input class="Result" type="text" id="result" placeholder="Result" readonly>
-            <button onclick="calculate()">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Computing
-            </button>
-        </div>
+        <label
+          class="label-2"
+          for="num2"
+        ></label>
+        <input
+          type="text"
+          id="num2"
+          placeholder="Number two"
+          autocomplete="off"
+        />
+      </div>
+      <label
+        id="Operator-title"
+        for="operator"
+        >Operator :</label
+      >
+      <select id="operator">
+        <option value="+">Plus(+)</option>
+        <option value="-">Subtraction(-)</option>
+        <option value="*">Multiplication(*)</option>
+        <option value="/">Divisio(/)</option>
+        <option value="**">Exponent(**)</option>
+      </select>
+      <div>
+        <label
+          class="Result"
+          for="result"
+        ></label>
+        <input
+          class="Result"
+          type="text"
+          id="result"
+          placeholder="Result"
+          readonly
+        />
+        <button onclick="calculate()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Computing
+        </button>
+      </div>
+    </div>
+    <div class="MDJAminDiv">
+      <a
+        class="MDJAmin"
+        href="https://github.com/MDJAmin"
+        target="_blank"
+        >MDJAmin</a
+      >
     </div>
     <script src="./js/script.js"></script>
-</body>
-
+  </body>
 </html>
