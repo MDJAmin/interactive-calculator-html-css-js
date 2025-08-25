@@ -26,5 +26,4 @@ function calculate() {
   }
 
   document.querySelector("#result").value = result;
-  document.querySelector("");
 }
